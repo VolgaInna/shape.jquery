@@ -1,0 +1,39 @@
+.window {
+			width: 600px;
+			height: 600px;
+			background-color: grey;
+			position: relative;
+}
+.block {
+			width: 200px;
+			height: 200px;
+			background-color: blue;
+			position: absolute;
+}
+.round {
+			width: 200px;
+			height: 200px;
+			border-radius: 50%;
+			background-color: blue;
+			position: absolute;
+}
+.rhombus {
+			width: 200px;
+			height: 200px;
+			transform: rotate(45deg);
+			background-color: blue;
+			position: absolute;
+}
+.nav, .nav-1	{
+			display: flex;
+			justify-content: space-between;
+}
+.rgba	{
+			display: flex;
+			flex-direction: column;
+
+}
+.rgba input {
+			width: 129px;
+}
+

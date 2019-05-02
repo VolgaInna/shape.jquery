@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div class="nav">
+		<div class="position-x">
+			<p>Позиция по горизонтали</p>
+			<input type="range" value="0" min="0" max="2" step="1">
+		</div>
+		<div class="size">
+			<p>Размер</p>
+			<input type="range" name="" value="1" min="1" max="3" step="1">
+		</div>
+		<div class="opacity">
+			<p>Прозрачность</p>
+			<input type="range" name="" value="10" min="1" max="10" step="1">
+		</div>
+		<div class="shape"> 
+			<p>Выбор формы</p>
+			<select>
+				<option>Квадрат</option>
+				<option>Круг</option>
+				<option>Прямоугольный ромб</option>
+			</select>
+		 	<button class="btn">ок</button>
+	</div>
+	<div class="hex">
+		<p>Задать цвет в формате hex</p>
+		<input type="text" placeholder="#fff" name="">
+	</div>
+	</div>
+	<div class="nav-1">
+		<div class="position-y">
+			<p>Позиция по вертикали</p>
+			<input type="range" name="" value="0" min="0" max="2" step="1">
+		</div>
+		<div class="rgba">
+			<p>Задать фон в формате rgba</p>
+			<input type="range" min="0" max="255" value="0" name="red"  step="1">
+			<input type="range" min="0" max="255" value="0" name="green" step="1">
+			<input type="range" min="0" max="255" value="0" name="blue" step="1">
+			<input type="range" min="1" max="100" value="100" name="alfa" step="1">
+		</div>
+	</div>
+	<div class="window">
+		<div class="block"></div>
+	</div>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
